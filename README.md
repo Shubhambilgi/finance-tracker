@@ -118,6 +118,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-- GitHub: github.com/Shubhambilgi
-- LinkedIn: linkedin.com/in/shubham-bilgi
+- GitHub: [github.com/Shubhambilgi](https://github.com/Shubhambilgi)
+- LinkedIn: www.linkedin.com/in/shubham-bilgi-234044283
 - Email: shubhambilgi@gmail.com
