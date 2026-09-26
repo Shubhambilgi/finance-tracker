@@ -25,18 +25,19 @@ finance-tracker/
 │   ├── users/
 │   │   ├── models.py             # Custom User model
 │   │   ├── admin.py
-│   │   ├── serializers.py        # (coming)
+│   │   ├── serializers.py        # User / register / login
 │   │   └── views.py              # (coming)
 │   ├── transactions/
 │   │   ├── models.py             # Transaction & Budget
 │   │   ├── admin.py
-│   │   ├── serializers.py        # (coming)
+│   │   ├── serializers.py        # Transaction & Budget
 │   │   └── views.py              # (coming)
 │   └── manage.py
 ├── frontend/                     # (coming)
 ├── docs/                         # Progress & documentation
 │   ├── Day1-UserModel.md
 │   ├── Day2-TransactionBudgetModels.md
+│   ├── Day3-APISerializers.md
 │   └── screenshots/
 └── README.md
 🚀 Quick Start
@@ -52,7 +53,7 @@ python -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
-pip install django djangorestframework django-cors-headers djangorestframework-simplejwt python-dotenv
+pip install -r requirements.txt
 
 # Run migrations
 python manage.py migrate
@@ -70,6 +71,7 @@ Admin: http://localhost:8000/admin
 ✅ Custom User model (email-based authentication)
 ✅ Transaction model (income & expense tracking)
 ✅ Budget model (monthly spending limits)
+✅ API serializers (User, Transaction, Budget)
 ⏳ REST API endpoints
 ⏳ React frontend
 ⏳ Data visualization (charts)
